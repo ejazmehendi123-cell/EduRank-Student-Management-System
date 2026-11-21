@@ -1,0 +1,115 @@
+# ==============================================================================
+# STUDENT MANAGEMENT SYSTEM - MASTER .GITIGNORE
+# ==============================================================================
+
+# --- Operating System Files ---
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# --- Secrets and Local Environment Configurations ---
+# Track .env.example, ignore active secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+!*.env.example
+
+# --- IDEs and Editor Configurations ---
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.settings/
+.project
+.classpath
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# --- Logs and Temporary Files ---
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tmp
+*.temp
+
+# --- Java & Maven (Backend) ---
+backend/target/
+**/target/
+*.class
+backend/.mvn/timing.properties
+backend/*.jar
+backend/*.war
+backend/*.ear
+backend/src/main/resources/application-local.properties
+backend/src/main/resources/application-local.yml
+
+# Keep Maven Wrapper
+!**/mvnw
+!**/mvnw.cmd
+!**/.mvn/wrapper/maven-wrapper.jar
+!**/.mvn/wrapper/maven-wrapper.properties
+
+# --- Node.js & JavaScript (Frontend & Scripts) ---
+**/node_modules/
+node_modules/
+frontend/node_modules/
+docx-generator/node_modules/
+.npm
+.eslintcache
+.stylelintcache
+
+# --- React Native & Expo ---
+frontend/.expo/
+frontend/.expo-shared/
+frontend/dist/
+frontend/web-build/
+*.jsbundle
+
+# --- Android Native Build (frontend/android) ---
+frontend/android/.gradle/
+frontend/android/build/
+frontend/android/app/build/
+frontend/android/local.properties
+frontend/android/.cxx/
+frontend/android/*.iml
+frontend/android/*.hprof
+frontend/android/captures/
+frontend/android/app/src/main/assets/index.android.bundle.meta
+
+# Keystores and Certificates
+*.keystore
+*.jks
+*.p12
+*.key
+*.cer
+
+# Native Binaries & Packages
+*.apk
+*.aab
+*.dex
+*.ap_
+
+# --- Docker & Database Volume Data ---
+postgres_data/
+mysql_data/
+docker_data/
+

@@ -1,0 +1,9 @@
+node_modules/
+android/
+.expo/
+.expo-shared/
+web-build/
+*.log
+.git
+.idea
+.vscode
