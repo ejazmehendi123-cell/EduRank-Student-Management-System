@@ -2,7 +2,7 @@
 
 EduRank is an enterprise-grade, full-stack Student Management System built with a **React Native (Expo)** mobile frontend, a **Java Spring Boot 3.x** backend, and a containerized **PostgreSQL** database managed via **Docker Compose**.
 
-It implements role-based access control (RBAC) for **STUDENTS** and **TEACHERS**, real-time competition ranking with tie handling, teacher-controlled point distribution with ACID transactions, server-side pagination, light/dark themes, and persistent JWT authentication.
+It implements role-based access control (RBAC) for **STUDENTS** and **TEACHERS**, real-time competition ranking with tie handling, teacher-controlled point distribution with ACID transactions, server-side pagination, light/dark themes and persistent JWT authentication.
 
 ---
 
