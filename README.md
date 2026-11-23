@@ -57,7 +57,7 @@ It implements role-based access control (RBAC) for **STUDENTS** and **TEACHERS**
    - Axios request and response interceptors handle transparent token refreshment without race conditions.
 5. **Theme Management**:
    - Dual theme support: **Light** and **Dark** mode.
-   - Global `ThemeContext` immediately updates typography, cards, and backgrounds across all screens.
+   - Global `ThemeContext` immediately updates typography, cards and backgrounds across all screens.
    - Theme preference persists locally across sessions.
 
 ---
