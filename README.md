@@ -38,7 +38,7 @@ It implements role-based access control (RBAC) for **STUDENTS** and **TEACHERS**
 ## 🚀 Key Features
 
 1. **Role-Based Portals**:
-   - **Student Portal**: Personal academic overview, current rank, total points, recent awards history, full leaderboard, and profile.
+   - **Student Portal**: Personal academic overview, current rank, total points, recent awards history, full leaderboard and profile.
    - **Teacher Portal**: Faculty dashboard, student roster management, competition leaderboard, interactive point awarding and adjustment controls, and transaction audits.
 2. **Competition Leaderboard**:
    - Calculates global ranks using `RANK() OVER (ORDER BY total_points DESC)` in PostgreSQL before pagination.
